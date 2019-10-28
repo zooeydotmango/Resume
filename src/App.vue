@@ -39,6 +39,8 @@
       grid-area: main;
       margin-top: 60px;
       margin-bottom: 22px;
+      background: #eeeeee;
+
     }
     #footer {
       grid-area: footer;

@@ -42,10 +42,12 @@
       grid-template-columns: repeat(2,50%);
       grid-template-areas: 'a b' 'c d';
       color: @baseColor;
+
       .a{
         grid-area: a;
         text-align: right;
         align-self: center;
+
       }
       .b{
         grid-area: b;

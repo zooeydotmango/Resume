@@ -56,16 +56,16 @@
 </script>
 <style lang="less" scoped>
   #index {
+    height: calc(100vh - 80px);
     padding: 66px 12% 22px 12%;
     background: no-repeat url("../../assets/images/bg1.jpg") center/cover;
-    height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     .introduction {
       p {
         text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
         &:first-child {
-          margin-top: 38px;
+          margin-top: 18px;
           font-size: 80px;
           color: #433127;
         }
@@ -83,6 +83,7 @@
         height: 10vh;
         fill: #433127;
         cursor: pointer;
+        margin-left: 300px;
         svg {
           box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
         }
