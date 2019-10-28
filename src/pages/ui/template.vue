@@ -8,17 +8,18 @@
           是我基于Vue.js造的一个UI框架</p>
         <p>尝试走完了从需求分析-设计-程序开发-单元测试-文档撰写-持续集成-发布的一整条开发路程</p>
         <p>使用ES6语法，配合sass的循环语法实现了响应式组件</p>
+        <p>使用vuepress生成官网并部署到github Page上</p>
       </div>
       <div class="box b">
         <img src="./ui.png" alt="" class="image">
       </div>
       <div class="box c">
-        <img src="" alt="" class="image">
+        <img src="./npm.png" alt="" class="image">
       </div>
       <div class="box d">
         <h5>优化：</h5>
-        <p>发布到npm上：<el-link type="warning" href="https://registry.npmjs.org/zooeyui">npm地址</el-link></p>
-        <p>将实现歌词特效的代码封装起来，形成一个插件</p>
+        <p>发布到npm上：<el-link type="warning" href="https://www.npmjs.com/package/zooeyui">npm地址</el-link></p>
+        <p></p>
         <p>重构代码，使用了webpack打包后部署到github page上</p>
         <p><el-link href="https://github.com/zooeydotmango/HeartMusic" type="warning">项目地址</el-link></p>
       </div></div>

@@ -1,9 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/pages/index/template.vue'
-import Fm from '@/pages/fm/template.vue'
-import Ui from '@/pages/ui/template.vue'
-import Blog from '@/pages/blog/template.vue'
 
 Vue.use(Router)
 
@@ -12,22 +8,22 @@ export default new Router({
     {
       path: '/',
       name: 'Index',
-      component: Index
+      component: () => import('@/pages/index/template.vue')
     },
     {
       path: '/blog',
       name: 'Blog',
-      component: Blog
+      component: () => import('@/pages/blog/template.vue')
     },
     {
       path: '/fm',
       name: 'FM',
-      component: Fm
+      component: () => import('@/pages/fm/template.vue')
     },
     {
       path: '/ui',
       name: 'UI',
-      component: Ui
+      component: () => import('@/pages/ui/template.vue')
     }
 
   ]
