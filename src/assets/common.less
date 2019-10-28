@@ -1,0 +1,32 @@
+@import "base.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font: 14px/1.6 Arial,'Hiragino Sans GB' 'Microsoft YaHei','黑体','宋体',sans-serif;
+  color: #333;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+input{
+  line-height: 40px;
+  border: 1px solid #eaeaea;
+  padding: 0 10px;
+  border-radius: 4px;
+  outline: none;
+  &:focus{
+    border-color: @bgLighterColor;
+  }
+}
