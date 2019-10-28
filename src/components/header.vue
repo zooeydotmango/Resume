@@ -18,7 +18,7 @@
               <router-link to="/ui">Zooey-UI</router-link>
             </el-menu-item>
           </el-submenu>
-          <el-menu-item index="3">PDF简历</el-menu-item>
+          <el-menu-item index="3"><a href="./宗良轩-应聘前端工程师.pdf" target="_blank">PDF简历</a></el-menu-item>
           <el-menu-item index="4"><a href="https://github.com/zooeydotmango" target="_blank">Github</a></el-menu-item>
         </el-menu>
       </el-col>
