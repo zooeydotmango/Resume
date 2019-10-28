@@ -15,7 +15,7 @@
         <img src="./request.png" alt="" class="image">
       </div>
       <div class="box d">
-        <h5>优化：</h5>
+        <h4>优化：</h4>
         <p>使用axios封装底层request</p>
         <p>引入Message使得网络传输出错的情况更直观</p>
         <p>改善用户体验，也使调试更方便</p>

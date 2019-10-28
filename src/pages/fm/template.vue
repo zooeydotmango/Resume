@@ -16,7 +16,7 @@
         <img src="./logic.png" alt="" class="image">
       </div>
       <div class="box d">
-        <h5>优化：</h5>
+        <h4>优化：</h4>
         <p>使用发布订阅模式实现代码解耦，模块化</p>
         <p>将实现歌词特效的代码封装起来，形成一个插件</p>
         <p>重构代码，使用了webpack打包后部署到github page上</p>

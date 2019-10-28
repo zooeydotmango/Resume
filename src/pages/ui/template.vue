@@ -8,7 +8,7 @@
           是我基于Vue.js造的一个UI框架</p>
         <p>尝试走完了从需求分析-设计-程序开发-单元测试-文档撰写-持续集成-发布的一整条开发路程</p>
         <p>使用ES6语法，配合sass的循环语法实现了响应式组件</p>
-        <p>使用vuepress生成官网并部署到github Page上</p>
+        <p>使用vuepress生成官网，并部署到github Page上</p>
       </div>
       <div class="box b">
         <img src="./ui.png" alt="" class="image">
@@ -17,12 +17,13 @@
         <img src="./npm.png" alt="" class="image">
       </div>
       <div class="box d">
-        <h5>优化：</h5>
+        <h4>优化：</h4>
         <p>发布到npm上：<el-link type="warning" href="https://www.npmjs.com/package/zooeyui">npm地址</el-link></p>
         <p></p>
         <p>重构代码，使用了webpack打包后部署到github page上</p>
         <p><el-link href="https://github.com/zooeydotmango/HeartMusic" type="warning">项目地址</el-link></p>
-      </div></div>
+      </div>
+    </div>
   </div>
 </template>
 <style lang="less" scoped>
@@ -41,13 +42,13 @@
     }
     .blocks{
       display: grid;
-      grid-template-columns: repeat(2,50%);
+      grid-template-columns: repeat(2,25%);
       grid-template-rows: repeat(2,50%);
-      grid-template-areas: 'a b b b' 'c c d d';
+      grid-template-areas: 'b b b a' 'd c c c';
       color: @baseColor;
       .a{
         grid-area: a;
-        text-align: right;
+        text-align: left;
         align-self: center;
       }
       .b{
@@ -63,7 +64,7 @@
       }
       .d{
         grid-area: d;
-        text-align: left;
+        text-align: right;
         align-self: center;
       }
     }
